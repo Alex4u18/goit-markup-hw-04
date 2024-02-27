@@ -1,0 +1,377 @@
+.root{
+  --link-color:color: #2E2F42;
+  --global-font-family:"Roboto", sans-serif;
+  --logo-font-family:"Raleway", sans-serif;
+  --link-logo:color: #434455;
+  --global-withe-text:color: #F4F4FD;
+}
+
+.website {
+  font-family: var(--global-font-family);
+}
+
+.logo-footer::before{
+  color: blue;
+  font-family: var(--logo-font-family);
+  font-weight: 800;
+  size: 18px;
+  text-decoration: none;
+}
+.footer .logo{
+  color:#F4F4FD;
+  text-decoration: none;
+  
+}
+.logo::before{
+  content: "WEB";
+  color: blue;
+  font-family: var(--logo-font-family);
+  font-weight: 800;
+  size: 18px;
+  text-decoration: none;
+}
+.logo{
+  color: #2E2F42;
+  text-decoration: none;
+  font-family: var(--logo-font-family);
+  font-weight: 800;
+  size: 18px;
+  width: 156px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.link-logo a {
+  color: var(--link-logo);
+  text-decoration: none;
+  size: 16px;
+  line-height:1.5;
+  justify-content: space-around;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+  .link-logo{
+    display: flex;
+    gap: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-block-start: 0;
+
+  }
+  
+.pages a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 500;
+  gap: 40px;
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px; 
+  }
+
+ul {
+    list-style-type: none;
+  }
+
+.hero{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  color: #FFFFFF;
+  background-color: #2E2F42;
+  top: 72px;
+}
+.top-line{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin-block-start: 0;
+  
+
+}
+.pages{
+  display: flex;
+  justify-content: space-evenly;
+  margin-block-start: 0;
+  gap: 24px;
+
+}
+.top-line{
+align-items: baseline;}
+
+.h1-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-order{
+padding: 16px, 32px, 16px, 32px;
+cursor: pointer;
+width: 160px;
+height: 56px;
+gap: 10px;
+border-radius: 4px 4px 4px;
+background-color:#4D5AE5;
+padding: 0;
+outline:none;
+border: none; 
+}
+.button-order:hover{
+  background-color:#4D5AE5;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about li h3{
+  font-weight: 500;
+  size: 20px;
+  color: var(--link-color);
+  line-height:1.5;
+}
+.about li p{
+  size: 16px;
+  color: var(--link-color);
+  line-height:1.5;
+}
+.sub-heder{
+  font-weight: 700;
+  size: 36px;
+  color: var(--link-color);
+  line-height:40px;
+}
+.team{
+  font-weight: 700;
+  size: 36px;
+  color: var(--link-color);
+  line-height:40px;
+}
+.our-team h3{
+  font-weight: 500;
+  size: 20px;
+  color: var(--link-color);
+  line-height:1.5;
+
+}
+.our-team p{
+  size: 16px;
+  color: var(--link-logo);
+  line-height:1.5;
+}
+.footer{
+background-color: #2E2F42;
+color: #F4F4FD;
+}
+.logo-studio{
+  color: #FFFFFF;
+  line-height:21px;
+
+
+
+
+
+}
+.buttons .all {
+  font-weight: 500;
+  color: #4D5AE5;
+  background-color: #E7E9FC;
+  width:69px;
+  height:48px;
+  padding:12px, 24px, 12px, 24px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  line-height:1.5;
+}
+.buttons .all:hover {
+  background-color:#404BBF;
+  color: #FFFFFF;
+  }
+
+  .buttons .web{
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    width:116px;
+    height:48px;
+    padding:12px, 24px, 12px, 24px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height:1.5;
+  }
+  .buttons .web:hover{
+    background-color:#404BBF;
+    color: #FFFFFF;
+  }
+  .buttons .app{
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    width:78px;
+    height:48px;
+    padding:12px, 24px, 12px, 24px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height:1.5;
+  }
+  .buttons .app:hover{
+    background-color:#404BBF;
+    color: #FFFFFF;
+  }
+  .buttons .design{
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    width:101px;
+    height:48px;
+    padding:12px, 24px, 12px, 24px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height:1.5;
+  }
+  .buttons .design:hover{
+    background-color:#404BBF;
+    color: #FFFFFF;
+  }
+  .buttons .marketing{
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    width:101px;
+    height:48px;
+    padding:12px, 24px, 12px, 24px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height:1.5;
+  }
+  .buttons .marketing:hover{
+    background-color:#404BBF;
+    color: #FFFFFF;
+  }
+.container{
+  width: 1200px;
+  margin-top: -24px;
+  margin-bottom: -24px;
+
+}
+.about-list {
+  display: flex;
+	justify-content: space-around;
+  gap: 24px;
+
+ }
+ .section-img{
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+ }
+ .sub-heder{
+  display: flex;
+  justify-content: center;
+ }
+ .team{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+ .our-team{
+  justify-content: space-around;
+  display: flex;
+ }
+ .team-section{
+  background-color: #F4F4FD;
+  gap: 32px;
+  padding: 0px, 0px, 32px, 0px;
+  top:1780px;
+  width: 1200px;
+ }
+.team-section h3 p{
+  background-color: #FFFFFF;
+}
+.card1{
+  background-color: #FFFFFF;
+  justify-content: center;
+  text-align: center;
+  bottom: 120px;
+
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.logo-footer{
+  display: flex;
+
+  flex-direction: column;
+
+  margin-left: 156px;
+
+}
+.p-footer{
+margin-bottom: 100px;
+    margin-top: 17.5px;
+}
+.logo-footer .logo{
+  margin-top: 100px;
+    margin-bottom: 17.5px;
+}
+
+
+.active-buttons{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -60px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 12px;
+}
+.images-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: #E7E9FC;
+  margin-top: -72px;
+  
+}
+.container .section{
+  padding-top: 94px;
+  padding-bottom: 0px;
+}
+.h3-images {
+  margin-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.p-images{
+  margin-left: 16px;
+  margin-bottom: 60px;
+}
