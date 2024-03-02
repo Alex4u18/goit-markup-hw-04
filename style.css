@@ -17,10 +17,12 @@
   size: 18px;
   text-decoration: none;
 }
+
 .footer .logo {
   color: #f4f4fd;
   text-decoration: none;
 }
+
 .logo::before {
   content: "WEB";
   color: blue;
@@ -29,6 +31,7 @@
   size: 18px;
   text-decoration: none;
 }
+
 .logo {
   color: #2e2f42;
   text-decoration: none;
@@ -92,12 +95,14 @@ ul {
   gap: 40px;
   margin-block-start: 0;
 }
+
 .pages {
   display: flex;
   justify-content: space-evenly;
   margin-block-start: 0;
   gap: 24px;
 }
+
 .top-line {
   align-items: baseline;
 }
@@ -107,6 +112,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
 .button-order {
   padding: 16px, 32px, 16px, 32px;
   cursor: pointer;
@@ -119,54 +125,64 @@ ul {
   outline: none;
   border: none;
 }
+
 .button-order:hover {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
   border: none;
 }
+
 .about li h3 {
   font-weight: 500;
   size: 20px;
   color: var(--link-color);
   line-height: 1.5;
 }
+
 .about li p {
   size: 16px;
   color: var(--link-color);
   line-height: 1.5;
 }
+
 .sub-heder {
   font-weight: 700;
   size: 36px;
   color: var(--link-color);
   line-height: 40px;
 }
+
 .team {
   font-weight: 700;
   size: 36px;
   color: var(--link-color);
   line-height: 40px;
 }
+
 .our-team h3 {
   font-weight: 500;
   size: 20px;
   color: var(--link-color);
   line-height: 1.5;
 }
+
 .our-team p {
   size: 16px;
   color: var(--link-logo);
   line-height: 1.5;
 }
+
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
+
 .logo-studio {
   color: #ffffff;
   line-height: 21px;
 }
+
 .buttons .all {
   font-weight: 500;
   color: #4d5ae5;
@@ -179,6 +195,7 @@ ul {
   border-radius: 4px;
   line-height: 1.5;
 }
+
 .buttons .all:hover {
   background-color: #404bbf;
   color: #ffffff;
@@ -196,10 +213,12 @@ ul {
   font-weight: 500;
   line-height: 1.5;
 }
+
 .buttons .web:hover {
   background-color: #404bbf;
   color: #ffffff;
 }
+
 .buttons .app {
   color: #4d5ae5;
   background-color: #e7e9fc;
@@ -212,10 +231,12 @@ ul {
   font-weight: 500;
   line-height: 1.5;
 }
+
 .buttons .app:hover {
   background-color: #404bbf;
   color: #ffffff;
 }
+
 .buttons .design {
   color: #4d5ae5;
   background-color: #e7e9fc;
@@ -228,10 +249,12 @@ ul {
   font-weight: 500;
   line-height: 1.5;
 }
+
 .buttons .design:hover {
   background-color: #404bbf;
   color: #ffffff;
 }
+
 .buttons .marketing {
   color: #4d5ae5;
   background-color: #e7e9fc;
@@ -244,32 +267,37 @@ ul {
   font-weight: 500;
   line-height: 1.5;
 }
+
 .buttons .marketing:hover {
   background-color: #404bbf;
   color: #ffffff;
 }
+
 .container {
   width: 1200px;
   /* margin-top: -24px;
   margin-bottom: -24px; */
 }
+
 .about-list {
   display: flex;
   justify-content: space-around;
   gap: 24px;
 }
+
 .section-img {
   display: flex;
   justify-content: space-around;
   gap: 24px;
 }
+
 .sub-heder {
   display: flex;
   justify-content: center;
 }
 
 .list-social-icons {
-  /* list-style-type: none; */
+  list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -278,31 +306,17 @@ ul {
   gap: 30px;
 }
 
-.list-social-icons a {
-  border-radius: 50%;
-  background-color: red;
-  /* width: 44px;
-  height: 44px; */
-  /* display: flex; */
-  /* justify-content: center;
-  align-content: center; */
-  /* flex-wrap: wrap;  */
-  /* display: inline-block;
-  width: 34px;
-  height: 35px;
-            } */
-}
-
 .icon-links {
   display: flex;
   border-radius: 50%;
-  /* width: 44px;
-    height: 44px; */
-  /* justify-content: center;
-    align-content: center;
-    flex-wrap: wrap; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-
+.icon-links:hover {
+  fill: white;
+}
 .cards-team {
   font-size: 14px;
   text-align: center;
@@ -321,6 +335,7 @@ ul {
 .h2-team {
   text-align: center;
 }
+
 .team-cards {
   display: flex;
   justify-content: space-around;
@@ -328,10 +343,12 @@ ul {
   margin-top: 72px;
   margin-bottom: 200px;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .logo-footer {
   display: flex;
 
@@ -339,14 +356,17 @@ ul {
 
   margin-left: 156px;
 }
+
 .p-footer {
   margin-bottom: 100px;
   margin-top: 17.5px;
 }
+
 .logo-footer .logo {
   margin-top: 100px;
   margin-bottom: 17.5px;
 }
+
 .active-buttons {
   display: flex;
   flex-direction: row;
@@ -357,6 +377,7 @@ ul {
   align-content: center;
   gap: 12px;
 }
+
 .images-list {
   display: flex;
   flex-wrap: wrap;
@@ -364,19 +385,22 @@ ul {
   border: #e7e9fc;
   margin-top: -72px;
 }
-/* .container .section{
+
+.container .section {
   padding-top: 94px;
   padding-bottom: 0px;
-} */
+}
 .h3-images {
   margin-left: 16px;
   margin-top: 32px;
   margin-bottom: 8px;
 }
+
 .p-images {
   margin-left: 16px;
   margin-bottom: 60px;
 }
+
 .h2-customers {
   display: flex;
   justify-content: center;
@@ -389,9 +413,26 @@ ul {
   justify-content: center;
   margin-bottom: 72px;
 }
+
 .customers-icons {
   fill: #8e8f99;
   display: flex;
   justify-content: space-evenly;
-  
+}
+
+.customers-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+.container-customers {
+  height: 100px;
+}
+
+.customers-icons:hover {
+  fill: #4d5ae5;
+}
+.hover-rectangle:hover {
+  stroke: #4d5ae5;
 }
