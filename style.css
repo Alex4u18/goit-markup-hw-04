@@ -158,7 +158,7 @@ border: none;
   size: 20px;
   color: var(--link-color);
   line-height:1.5;
-
+ 
 }
 .our-team p{
   size: 16px;
@@ -276,7 +276,7 @@ color: #F4F4FD;
   display: flex;
   justify-content: center;
  }
- .team{
+ /* .team{
   display: flex;
   align-content: center;
   flex-wrap: wrap;
@@ -304,6 +304,24 @@ color: #F4F4FD;
   text-align: center;
   bottom: 120px;
 
+} */
+
+.about-list .antena svg{
+  display: flex;
+  fill: red;
+  width: 15px;
+  height: 13px;
+}
+
+.h2-team{
+  text-align: center;
+}
+.team-cards{
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  margin-top: 72px;
+  margin-bottom: 200px;
 }
 .section {
   padding-top: 94px;
@@ -362,3 +380,13 @@ margin-bottom: 100px;
   margin-top: 120px;
   margin-bottom: 280px;
 }
+
+.customers{
+  display: flex;
+  justify-content: center;
+}
+/* .customers .customers-list svg{
+  fill:"red";
+  background-color:white;
+  
+} */
