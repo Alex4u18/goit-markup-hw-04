@@ -82,11 +82,35 @@ ul {
   align-items: center;
   color: #ffffff;
   top: 72px;
-  background-color: #2e2f42;
-  background-image: url("./images/office.jpg");
   width: 1440px;
   height: 600px;
   top: 72px;
+}
+
+.custom-rectangle:hover {
+  fill: #e74c3c; /* Change the color on hover */
+}
+
+.rect-icons {
+  width: 264px;
+  height: 112px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: #f4f4fd;
+  border-radius: 4px;
+}
+
+.header-container-content {
+  width: 1440px;
+  height: 600px;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./images/office.png);
+  background-size: cover;
 }
 
 .top-line {
@@ -306,6 +330,14 @@ ul {
   gap: 30px;
 }
 
+.social-icons {
+  fill: #8e8f99;
+}
+
+.social-icons:hover {
+  fill: #4d5ae5;
+}
+
 .icon-links {
   display: flex;
   border-radius: 50%;
@@ -313,10 +345,10 @@ ul {
   display: flex;
   justify-content: center;
   align-content: center;
+  width: 15px;
+  height: 15px;
 }
-.icon-links:hover {
-  fill: white;
-}
+
 .cards-team {
   font-size: 14px;
   text-align: center;
@@ -390,6 +422,7 @@ ul {
   padding-top: 94px;
   padding-bottom: 0px;
 }
+
 .h3-images {
   margin-left: 16px;
   margin-top: 32px;
@@ -426,6 +459,7 @@ ul {
   margin-top: 72px;
   margin-bottom: 120px;
 }
+
 .container-customers {
   height: 100px;
 }
@@ -433,6 +467,7 @@ ul {
 .customers-icons:hover {
   fill: #4d5ae5;
 }
+
 .hover-rectangle:hover {
   stroke: #4d5ae5;
 }
