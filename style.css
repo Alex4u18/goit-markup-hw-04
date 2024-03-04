@@ -201,7 +201,6 @@ ul {
   justify-content: unset;
   align-content: baseline;
   flex-wrap: wrap;
-  
 }
 
 .logo-studio {
@@ -418,6 +417,7 @@ ul {
   justify-content: space-around;
   border: #e7e9fc;
   margin-top: -72px;
+  cursor: pointer;
 }
 
 .container .section {
