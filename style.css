@@ -87,10 +87,6 @@ ul {
   top: 72px;
 }
 
-.custom-rectangle:hover {
-  fill: #e74c3c; /* Change the color on hover */
-}
-
 .rect-icons {
   width: 264px;
   height: 112px;
@@ -201,6 +197,11 @@ ul {
   background-color: #2e2f42;
   color: #f4f4fd;
   width: 1440px;
+  display: flex;
+  justify-content: unset;
+  align-content: baseline;
+  flex-wrap: wrap;
+  
 }
 
 .logo-studio {
@@ -332,7 +333,7 @@ ul {
 }
 
 .social-icons {
-  fill: #8e8f99;
+  fill: #2e2f42;
 }
 
 .social-icons:hover {
@@ -480,4 +481,30 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 48px;
+}
+.social-media-footer {
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.social-media-footer p {
+  margin-left: 40px;
+  font-family: var(--global-font-family);
+  margin-bottom: 30px;
+}
+.icon-links-footer {
+  display: flex;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40px;
+  height: 40px;
+  flex-flow: wrap;
+}
+.social-media-footer svg {
+  fill: #f4f4fd;
+}
+.footer .container {
+  width: 1440px;
 }
